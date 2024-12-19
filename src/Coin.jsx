@@ -21,7 +21,7 @@ export default function Coin() {
     <div className="container text-center py-2">
         <div className="row">
         <h1>Task 2</h1>
-        {coin==true?<img src={coin1} className='mx-auto' alt="" />:<img src={coin2} className='mx-auto' alt="" />}
+        {coin==true?<img src={coin1} className='w-25 mx-auto' alt="" />:<img src={coin2} className='w-25 mx-auto' alt="" />}
         <button className='btn btn-danger my-2' onClick={flip}>Flip Me</button> 
         <p>out of {count} flips, there have been {head} num and {tail} pic</p> 
         </div>
