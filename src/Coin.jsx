@@ -4,7 +4,7 @@ import coin2 from '../src/img/coin2.jpg'
 export default function Coin() {
     let [coin,setCoin] = useState(true);
     let [count, setCount] = useState(0);
-    const [head, setHead] = useState(0); // Heads count
+    const [head, setHead] = useState(0); 
     const [tail, setTail] = useState(0);
     function flip(){
         setCoin(!coin)
